@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="food_item_list">
+        <item>fuschka</item>
+        <item>Doi fuschka</item>
+        <item>chotpoti</item>
+        <item>singara </item>
+        <item>samosa</item>
+        <item>pani puri</item>
+        <item>bhel puri</item>
+        <item>puri</item>
+        <item>peyaji</item>
+        <item>alu chop</item>
+        <item>beguni</item>
+        <item>kabab</item>
+        <item>chola batora</item>
+        <item>dosa</item>
+        <item>sushi</item>
+        <item>fajitas</item>
+        <item>momo</item>
+        <item>jilapi</item>
+        <item>egg chop</item>
+        <item>chicken chop</item>
+        <item>vegetable roll</item>
+        <item>chicken roll</item>
+        <item>hot dog</item>
+        <item>burger</item>
+        <item>sandwich</item>
+        <item>sub sandwich</item>
+        <item>pizza</item>
+        <item>soup</item>
+        <item>pitas</item>
+        <item>fried chicken</item>
+        <item>french fries</item>
+        <item>wedges</item>
+        <item>potato wedges</item>
+        <item>onion ring</item>
+        <item>chicken nugget</item>
+        <item>nugget</item>
+        <item>mashed potato</item>
+        <item>tacos</item>
+        <item>pizza</item>
+        <item>ice cream</item>
+        <item>chips</item>
+        <item>salads</item>
+        <item>fish curry</item>
+        <item>potato curry</item>
+        <item>chicken curry</item>
+        <item>beef curry</item>
+        <item>mutton item</item>
+        <item>chicken item</item>
+        <item>beef item</item>
+        <item>fish fries</item>
+        <item>vorta</item>
+        <item>alu vorta</item>
+        <item>beggun vorta </item>
+        <item>sim vorta</item>
+        <item>totato vorta</item>
+        <item>chola muri</item>
+        <item>vapa pitha citoi</item> pitha
+        <item>chicken grill</item>
+        <item>fried corn</item>
+        <item>achar</item>
+        <item>batasha</item>
+        <item>natasha</item>
+        <item>kala bhuna</item>
+        <item>wood apple mashe</item>d
+        <item>sweets</item>
+        <item>doi</item>
+        <item>payesh</item>
+        <item>rosh malai</item>
+        <item>laddu</item>
+        <item>resmi kabab</item>
+        <item>shami kabab</item>
+        <item>jali kabab</item>
+        <item>shik kabab</item>
+        <item>shawarma</item>
+        <item>beef shawarma</item>
+        <item>chowmein</item>
+        <item>chicken chowmein</item>
+        <item>beef chowmein</item>
+        <item>vegetable chowme</item>in
+        <item>noodles</item>
+        <item>prawn fries</item>
+        <item>wonthon</item>
+        <item>prawn</item>
+        <item>chicken chap</item>
+        <item>beef chap</item>
+        <item>mutton chap</item>
+        <item>kabsa</item>
+        <item>kabuli</item>
+        <item>chicken biriyani</item>
+        <item>beef biriyani</item>
+        <item>biriyani</item>
+        <item>mutton biriyani</item>
+        <item>kacchi(mutton)</item>
+        <item>kacchi(beef)</item>
+        <item>kacchi(lamb)</item>
+        <item>lamb rezala</item>
+        <item>lamb curry</item>
+        <item>cake </item>
+        <item>pan cake</item>
+        <item>fried rice</item>
+        <item>fried rice item</item>
+        <item>chineese platter</item>
+        <item>japaneese platte</item>r
+        <item>bangali platter</item>
+        <item>indian platter</item>
+        <item>moghlai</item>
+        <item>pasta</item>
+        <item>hot cake</item>
+        <item>muffin</item>
+        <item>chocolate</item>
+        <item>jhal muri</item>
+        <item>chop suey</item>
+        <item>halim</item>
+        <item>nachos</item>
+        <item>nimki</item>
+        <item>biscuit</item>
+        <item>chicken ball</item>
+        <item>parata</item>
+        <item>alu parata</item>
+        <item>vegetable parata</item>
+        <item>milk tea</item>
+        <item>black tea</item>
+        <item>green tea</item>
+        <item>lemon tea</item>
+        <item>tea</item>
+        <item>coffee</item>
+        <item>soft driks</item>
+        <item>beverage</item>
+        <item>chicken wings</item>
+        <item>buffelo wings</item>
+        <item>cold coffee</item>
+        <item>shakes</item>
+        <item>cashew nut salad</item>
+        <item>coleslaw salad</item>
+        <item>ban</item>
+        <item>bread</item>
+        <item>rooti</item>
+        <item>rice bowl</item>
+        <item>fruit juice</item>
+        <item>chicken wings</item>
+        <item>faluda</item>
+        <item>jorda</item>
+        <item>pan</item>
+        <item>misti pan</item>
+        <item>pudding</item>
+        <item>borhani</item>
+        <item>firni</item>
+        <item>lacchi</item>
+        <item>jafran</item>
+        <item>steak</item>
+        <item>beef steak</item>
+        <item>chicken steak</item>
+        <item>buffelo steak</item>
+        <item>mutton steak</item>
+        <item>bacon steak</item>
+        <item>pomfret</item>
+        <item>red snapper</item>
+        <item>grilled prawn</item>
+        <item>grilled lobster</item>
+        <item>morog polao</item>
+        <item>dal vat</item>
+        <item>soan papdi</item>
+        <item>steamed rice item</item>
+        <item>beer</item>
+        <item>chicken dumplings</item>
+        <item>mashroom</item>
+        <item>babycorn</item>
+        <item>butter ban</item>
+        <item>seafood items</item>
+        <item>vegetable items</item>
+        <item>meat ball</item>
+        <item>cigarette</item>
+    </array>
+</resources>
+

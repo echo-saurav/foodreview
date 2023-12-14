@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="true"
+    android:innerRadius="40dp"
+    android:shape="ring"
+    android:thicknessRatio="1.9"
+    app:cardCornerRadius="40dp"
+    android:padding="3sp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icon" />
+</androidx.cardview.widget.CardView>

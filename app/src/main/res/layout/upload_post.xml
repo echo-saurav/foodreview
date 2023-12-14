@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".upload.UploadActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/upload_option"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:elevation="4sp"
+        app:title="Post New Products"
+        tools:targetApi="lollipop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10sp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60sp" />
+            <Button
+                android:onClick="goToAddRecipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add recipe"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7sp"
+                    android:background="@null"
+                    android:hint="Location"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="10sp"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawableStart="@drawable/alert_icon"
+                    android:drawableTint="@color/colorAccent"
+                    android:text="click to select image or video"
+                    android:textSize="17sp" />
+
+
+                <ImageView
+                    android:id="@+id/upload_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="400sp"
+                    android:onClick="chooseImage"
+                    android:scaleType="centerCrop" />
+            </RelativeLayout>
+            <Button
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:padding="10sp"
+                android:textColor="@android:color/black"
+                android:onClick="CaptureImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableStart="@drawable/camera_icon"
+                android:drawableTint="@color/colorAccent"
+                android:text="Capture image"
+                android:textSize="17sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="food tag"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/products_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7sp"
+                    android:background="@null"
+                    android:hint="what is this?!"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="10sp"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="brand name"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7sp"
+                    android:background="@null"
+                    android:hint="place name??"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="10sp"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7sp"
+                android:drawableStart="@drawable/info_icon"
+                android:drawableTint="@color/colorPrimary"
+                android:text="Product description"
+                android:textColor="@android:color/black"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/products_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7sp"
+                android:height="150sp"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="Write a review about this food..."
+                android:inputType="textMultiLine"
+                android:padding="10sp"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="70sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

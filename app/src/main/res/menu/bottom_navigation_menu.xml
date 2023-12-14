@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/home_icon"
+        android:title="Home"/>
+    <item android:id="@+id/recipe"
+        android:icon="@drawable/cook_icon"
+        android:title="recipe"/>
+    <item android:id="@+id/upload"
+        android:icon="@drawable/add_icon"
+        android:title="add"/>
+    <item android:id="@+id/notification"
+        android:icon="@drawable/notification_icon"
+        android:title="notification"/>
+    <item android:id="@+id/profile"
+        android:iconTint="@null"
+        android:icon="@drawable/profile_icon"
+        android:title="profile"/>
+
+</menu>

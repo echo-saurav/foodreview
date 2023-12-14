@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        android:layout_marginBottom="100sp"
+        android:layout_marginTop="100sp"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        android:id="@+id/progress_circular"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"/>
+</LinearLayout>

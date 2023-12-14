@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+<!--    <EditText-->
+<!--        android:layout_marginBottom="50sp"-->
+<!--        android:id="@+id/ingredients_edit_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@null"-->
+<!--        android:hint="write ingredients..."-->
+<!--        android:textSize="13sp"-->
+<!--        android:gravity="start"/>-->
+
+    <jp.wasabeef.richeditor.RichEditor
+        android:id="@+id/ingredients_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@null"
+        android:id="@+id/next_click_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next preparation"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+</LinearLayout>

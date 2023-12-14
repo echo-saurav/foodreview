@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="23sp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70sp"
+                    android:layout_height="70sp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/icon" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17sp"
+                    android:text="@string/alt_text_sign_up"
+                    android:textSize="17sp"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+
+
+            <EditText
+                android:textSize="17sp"
+                android:id="@+id/name_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7sp"
+                android:background="@drawable/edit_text"
+                android:hint="Name"
+                android:inputType="textEmailAddress"
+                android:padding="13sp" />
+
+            <EditText
+                android:hint="Email"
+                android:id="@+id/email_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7sp"
+                android:background="@drawable/edit_text"
+                android:inputType="textEmailAddress"
+                android:padding="13sp"
+                android:textSize="17sp" />
+
+            <EditText
+                android:hint="Password"
+                android:id="@+id/password_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7sp"
+                android:background="@drawable/edit_text"
+
+                android:inputType="textPassword"
+                android:padding="13sp"
+                android:textSize="17sp" />
+
+            <EditText
+                android:hint="Confirm Password"
+                android:id="@+id/password_two_sign_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7sp"
+                android:background="@drawable/edit_text"
+
+                android:inputType="textPassword"
+                android:padding="13sp"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/sign_up_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_ripple"
+                android:text="Sign up"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.productreview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:8:5-64
+14-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:17.1.2] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/9f6d37a4edc650691200a29e46253106/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:10:5-79
+15-->[com.google.firebase:firebase-firestore:17.1.2] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/9f6d37a4edc650691200a29e46253106/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.firebase:firebase-firestore:17.1.2] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/9f6d37a4edc650691200a29e46253106/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:11:5-67
+16-->[com.google.firebase:firebase-firestore:17.1.2] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/9f6d37a4edc650691200a29e46253106/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+17-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:10:5-51:19
+21        android:allowBackup="true"
+21-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:12:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/b6b5951a20836cbe843a8e306a5032d5/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/logo"
+24-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:13:9-36
+25        android:label="@string/app_name"
+25-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:14:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:15:9-54
+27        android:supportsRtl="true"
+27-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:16:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Splash_theme" >
+29-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:11:9-44
+30        <activity android:name="com.example.productreview.Splash" >
+30-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:18:9-24:20
+30-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:18:19-41
+31            <intent-filter>
+31-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:19:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:20:17-69
+32-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:22:17-77
+34-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.productreview.userManagement.UserManagement" />
+37-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:26:9-67
+37-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:26:19-64
+38        <activity android:name="com.example.productreview.MainActivity" />
+38-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:27:9-50
+38-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:27:19-47
+39        <activity android:name="com.example.productreview.upload.UploadActivity" />
+39-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:28:9-59
+39-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:28:19-56
+40        <activity android:name="com.example.productreview.editProfile.EditProfile" />
+40-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:29:9-61
+40-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:29:19-58
+41        <activity
+41-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:30:9-31:61
+42            android:name="com.example.productreview.notification.Popup"
+42-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:30:19-53
+43            android:theme="@style/NotificationDialogTheme" />
+43-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:31:13-59
+44        <activity android:name="com.example.productreview.camera.CameraActivity" />
+44-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:32:9-59
+44-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:32:19-56
+45        <activity android:name="com.example.productreview.addRecipe.AddRecipe" />
+45-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:33:9-57
+45-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:33:19-54
+46        <activity android:name="com.example.productreview.TestActivity" />
+46-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:34:9-50
+46-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:34:19-47
+47        <activity android:name="com.example.productreview.FullScreenImageViewer" />
+47-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:35:9-59
+47-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:35:19-56
+48
+49        <service
+49-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:37:9-43:19
+50            android:name="com.example.productreview.notification.BackgroundNotification"
+50-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:38:9-60
+51            android:exported="false" >
+51-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:39:9-33
+52            <intent-filter>
+52-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:40:13-42:29
+53                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+53-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:41:17-78
+53-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:41:25-75
+54            </intent-filter>
+55        </service>
+56
+57        <meta-data
+57-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:45:9-47:47
+58            android:name="com.google.firebase.messaging.default_notification_icon"
+58-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:46:13-83
+59            android:resource="@mipmap/icon" />
+59-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:47:13-44
+60        <meta-data
+60-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:48:9-50:53
+61            android:name="com.google.firebase.messaging.default_notification_color"
+61-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:49:13-84
+62            android:resource="@color/colorAccent" />
+62-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:50:13-50
+63
+64        <provider
+64-->[com.squareup.picasso:picasso:2.71828] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7b90d09c9334e71f18c5d7f93514bc67/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+65            android:name="com.squareup.picasso.PicassoProvider"
+65-->[com.squareup.picasso:picasso:2.71828] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7b90d09c9334e71f18c5d7f93514bc67/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+66            android:authorities="com.example.productreview.com.squareup.picasso"
+66-->[com.squareup.picasso:picasso:2.71828] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7b90d09c9334e71f18c5d7f93514bc67/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+67            android:exported="false" />
+67-->[com.squareup.picasso:picasso:2.71828] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7b90d09c9334e71f18c5d7f93514bc67/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+68        <provider
+68-->[androidx.camera:camera-camera2:1.0.0-alpha06] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/a748f7e35b3b7464b338744045dac9c6/camera-camera2-1.0.0-alpha06/AndroidManifest.xml:25:9-30:43
+69            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+69-->[androidx.camera:camera-camera2:1.0.0-alpha06] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/a748f7e35b3b7464b338744045dac9c6/camera-camera2-1.0.0-alpha06/AndroidManifest.xml:26:13-75
+70            android:authorities="com.example.productreview.camerax-init"
+70-->[androidx.camera:camera-camera2:1.0.0-alpha06] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/a748f7e35b3b7464b338744045dac9c6/camera-camera2-1.0.0-alpha06/AndroidManifest.xml:27:13-64
+71            android:exported="false"
+71-->[androidx.camera:camera-camera2:1.0.0-alpha06] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/a748f7e35b3b7464b338744045dac9c6/camera-camera2-1.0.0-alpha06/AndroidManifest.xml:28:13-37
+72            android:initOrder="100"
+72-->[androidx.camera:camera-camera2:1.0.0-alpha06] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/a748f7e35b3b7464b338744045dac9c6/camera-camera2-1.0.0-alpha06/AndroidManifest.xml:29:13-36
+73            android:multiprocess="true" />
+73-->[androidx.camera:camera-camera2:1.0.0-alpha06] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/a748f7e35b3b7464b338744045dac9c6/camera-camera2-1.0.0-alpha06/AndroidManifest.xml:30:13-40
+74
+75        <activity
+75-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+76            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+76-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+77            android:excludeFromRecents="true"
+77-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+78            android:exported="true"
+78-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+79            android:launchMode="singleTask"
+79-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+80            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+80-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+82
+83        <service
+83-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:16.0.5] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e31395befeef88a808285c016061f96/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-firestore:17.1.2] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/9f6d37a4edc650691200a29e46253106/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:15:13-17:85
+90                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+90-->[com.google.firebase:firebase-firestore:17.1.2] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/9f6d37a4edc650691200a29e46253106/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:16:17-111
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-firestore:17.1.2] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/9f6d37a4edc650691200a29e46253106/jetified-firebase-firestore-17.1.2/AndroidManifest.xml:17:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-storage:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/b4e933b25144d0b6bd273e3801dd6784/jetified-firebase-storage-16.1.0/AndroidManifest.xml:31:13-33:85
+93                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+93-->[com.google.firebase:firebase-storage:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/b4e933b25144d0b6bd273e3801dd6784/jetified-firebase-storage-16.1.0/AndroidManifest.xml:32:17-107
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-storage:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/b4e933b25144d0b6bd273e3801dd6784/jetified-firebase-storage-16.1.0/AndroidManifest.xml:33:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+96                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+96-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+98        </service>
+99        <!--
+100             FirebaseMessagingService performs security checks at runtime,
+101             no need for explicit permissions despite exported="true"
+102        -->
+103        <service
+103-->[com.google.firebase:firebase-messaging:17.3.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e0aa6918654d14758c6dd7c03d7a36e/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+104            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+104-->[com.google.firebase:firebase-messaging:17.3.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e0aa6918654d14758c6dd7c03d7a36e/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+105            android:exported="true" >
+105-->[com.google.firebase:firebase-messaging:17.3.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0e0aa6918654d14758c6dd7c03d7a36e/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+106            <intent-filter android:priority="-500" >
+106-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:40:13-42:29
+107                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+107-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:41:17-78
+107-->/Users/sauravahmed/AndroidStudioProjects/productReview-master/app/src/main/AndroidManifest.xml:41:25-75
+108            </intent-filter>
+109        </service>
+110
+111        <receiver
+111-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+112            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+112-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+113            android:exported="true"
+113-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+114            android:permission="com.google.android.c2dm.permission.SEND" >
+114-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+115            <intent-filter>
+115-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+116                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+116-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+116-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+117            </intent-filter>
+118        </receiver>
+119        <!--
+120             FirebaseInstanceIdService performs security checks at runtime,
+121             no need for explicit permissions despite exported="true"
+122        -->
+123        <service
+123-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+124            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+124-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+125            android:exported="true" >
+125-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+126            <intent-filter android:priority="-500" >
+126-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+126-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+127                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+127-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+127-->[com.google.firebase:firebase-iid:17.0.4] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/226dea3c2e21ab9f00a853308420e5e6/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+128            </intent-filter>
+129        </service>
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:16.0.1] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0367276421d7e9954c3e871d4cf300af/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:16.0.1] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0367276421d7e9954c3e871d4cf300af/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:16.0.1] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0367276421d7e9954c3e871d4cf300af/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:16.0.1] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/0367276421d7e9954c3e871d4cf300af/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+135
+136        <provider
+136-->[com.google.firebase:firebase-common:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7a1286c46cc8fb70cecb2063211ea4b2/jetified-firebase-common-16.1.0/AndroidManifest.xml:12:9-16:39
+137            android:name="com.google.firebase.provider.FirebaseInitProvider"
+137-->[com.google.firebase:firebase-common:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7a1286c46cc8fb70cecb2063211ea4b2/jetified-firebase-common-16.1.0/AndroidManifest.xml:13:13-77
+138            android:authorities="com.example.productreview.firebaseinitprovider"
+138-->[com.google.firebase:firebase-common:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7a1286c46cc8fb70cecb2063211ea4b2/jetified-firebase-common-16.1.0/AndroidManifest.xml:14:13-72
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7a1286c46cc8fb70cecb2063211ea4b2/jetified-firebase-common-16.1.0/AndroidManifest.xml:15:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/7a1286c46cc8fb70cecb2063211ea4b2/jetified-firebase-common-16.1.0/AndroidManifest.xml:16:13-36
+141
+142        <meta-data
+142-->[com.google.android.gms:play-services-basement:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/b081648a0d193cab4ed41b58c1617fe1/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+143            android:name="com.google.android.gms.version"
+143-->[com.google.android.gms:play-services-basement:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/b081648a0d193cab4ed41b58c1617fe1/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+144            android:value="@integer/google_play_services_version" />
+144-->[com.google.android.gms:play-services-basement:16.1.0] /Users/sauravahmed/.gradle/caches/transforms-2/files-2.1/b081648a0d193cab4ed41b58c1617fe1/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+145    </application>
+146
+147</manifest>
